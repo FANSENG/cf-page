@@ -1,0 +1,38 @@
+.buttContainer {
+    position: sticky;
+    z-index: 1;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 16px;
+    padding: 5px 12px 8px 16px;
+    gap: 8px;
+}
+
+.wordsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+MainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.inputBlock {
+    margin-right: 16px;
+}
