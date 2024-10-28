@@ -5,7 +5,7 @@ import { Breadcrumb, Layout, Menu, theme } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import AppRouter from './router';
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Content, Footer, Sider } = Layout;
 
 type MenuItem = Required<MenuProps>['items'][number];
 
