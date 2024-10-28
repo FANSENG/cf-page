@@ -12,7 +12,7 @@ async function WordToStory(words: string[]): Promise<StoryStruct> {
     params.append('words', JSON.stringify(words));
 
     // 2. send request to the API
-    const response = await fetch(`https://func.fs1n.site/call/word2story?${params.toString()}`, {
+    const response = await fetch(`https://func.fs1n.site/word2story?${params.toString()}`, {
       method: 'GET',
     });
     if (!response.ok) {
